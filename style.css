@@ -1,0 +1,88 @@
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding:35px 12%;
+    background: rgb(33, 37, 41);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+span
+{
+    color:rgb(50, 74, 110) ;
+}
+ 
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(50, 74, 110);
+    border-bottom: 5px solid rgb(50, 74, 110) ;
+}
+.contact{
+    padding: 10px 20px;
+    background-color: azure;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: rgb(50, 74, 110);
+    box-shadow: 0 0 25px rgb(50, 74, 110);
+    color: azure;
+}
+.home{
+    width:100%;
+    min-height: 100vh;
+    background: azure;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: 42px;
+}
+.home-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    padding: 15px 20px;
+    background-color: rgb(50, 74, 110);
+    color: azure;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color:rgb(50, 74, 110);
+    color: black;
+    border: 2px black;
+}
+.img-box img{
+    border-radius: 50%;
+    width: 550px;
+}
